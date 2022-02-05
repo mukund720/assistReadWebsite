@@ -1,0 +1,80 @@
+.text-center
+{
+    font-weight: 900;
+}
+.ptxt
+{
+    font-size: 12px;
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    max-height: 200px;
+}
+.ptxt.autoShowHide {
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .ptxt.autoShowHide:hover {
+    // white-space: normal; 
+    // overflow: visible;
+    // width: 100%; 
+  }
+  .rate
+  {
+    font-weight: 900;
+    left: -20px;
+    position: relative;
+    color: #f5593d !important;
+  }
+  .expiry
+  {
+    font-weight: 900;
+    left: -60px;
+    position: relative;
+    color: #2196f3 !important;
+    display: block;
+    font-size: 10px;
+  }
+  .buyNow
+  {
+    left: 25px;
+    top: -15px;
+    position: relative;
+    color: #2196f3 !important;
+  }
+  .footerImg
+  {
+    background: transparent;
+    height: 110px;
+  }
+  .descBox
+  {
+    position: relative;
+    left: 100px;
+    top: -130px;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .descBox h1
+  {
+    font-family: cursive;
+  }
+  .footerP
+  {
+    color: #fff;
+    font-size: 14px;
+    font-family: pRegular,sans-serif;
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+  .footerMark
+  {
+    color: #ffcc32;
+    font-size: 14px;
+    font-family: pRegular,sans-serif;
+    text-align: justify; 
+    font-weight: 900;
+  }
