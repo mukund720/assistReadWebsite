@@ -48,7 +48,7 @@ export class AppComponent implements OnInit {
             body.classList.add('ie-background');
 
         }
-
+// this.welcomeMe();
     }
     removeFooter() {
         var titlee = this.location.prepareExternalUrl(this.location.path());
@@ -59,5 +59,11 @@ export class AppComponent implements OnInit {
         else {
             return true;
         }
+    }
+    welcomeMe()
+    {
+        let newsContent="ReadyAssist provides 24/7 on the spot breakdown support, flat tyre puncture repairs, fixes for starting problems, battery jumpstart & towing service to customers through our annual subscriptions & on-demand. ReadyAssist services are available across any nook and corner of India to our customers through the subscription model. Customers in cities like Bengaluru, Mumbai, Mysore, Gurugram, Delhi, Pune, Chennai, Hyderabad, Jaipur, Ahmedabad, Indore, Patna, Kolkata, Bhuvaneshwar, Chandigarh, Udaipur, Surat, Nagpur, Nasik, Vishakapatnam, Vijayawada, Coimbatore, Mangalore, Trivandrum, Kochi, Calicut, Guwahati, Goa, Pondicherry & Lucknow can avail our services through an on-demand model as well.";
+                var msg=new SpeechSynthesisUtterance(newsContent);
+                window.speechSynthesis.speak(msg);
     }
 }
